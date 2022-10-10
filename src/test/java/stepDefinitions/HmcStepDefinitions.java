@@ -43,4 +43,20 @@ public class HmcStepDefinitions {
     public void sayfayaGirisYapilamadiginiKontrolEder() {
         Assert.assertTrue(hotelMyCampPage.ikinciLoginButton.isDisplayed());
     }
+
+    @And("gecersiz username girer")
+    public void gecersizUsernameGirer() {
+        hotelMyCampPage.username.sendKeys(ConfigReader.getProperty("hotelMyCampWrongUsername"));
+    }
+
+
+    @And("gecersiz username olarak {string} girer")
+    public void gecersizUsernameOlarakGirer(String username) {
+        hotelMyCampPage.username.sendKeys(username);
+    }
+
+    @And("gecersiz password olarak {string} girer")
+    public void gecersizPasswordOlarakGirer(String password) {
+        hotelMyCampPage.password.sendKeys(password);
+    }
 }
