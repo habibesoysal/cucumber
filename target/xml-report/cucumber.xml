@@ -1,21 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.425">
-    <testcase classname="Amazon Practice" name="Amazon Sign in Test" time="15.127">
-        <system-out>
-            <![CDATA[Given kullanici "amazonUrl" anasayfasinda...................................passed
-When sign in butonuna tiklar................................................passed
-And faker kullanarak e-posta gonderir.......................................passed
-And gonderdigi e-postanin ekran goruntusunu alir............................passed
-And continiue'a tiklar......................................................passed
-Then There was a problem mesajini dogrular..................................passed
-And Need help e tiklar......................................................passed
-And forgot your password e tiklar...........................................passed
-And Password assistance metnini dogrular....................................passed
-And Geri gider..............................................................passed
-And Create your account butonuna tiklar.....................................passed
-Then Create account metnini dogrular........................................passed
-And sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-</testsuite>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.086"/>
