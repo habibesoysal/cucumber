@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"},
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@practiceForm",
+        tags = "@medunna",
         dryRun = false
 )
 
@@ -32,5 +32,11 @@ public class TestRunner {
     - dryRun = true -> testimizi calistirmadan sadece eksik adimlari bize verir
     gercekte calismaz,eksik adim var mi kontrol eder
     - dryRun = false -> testleri calistirir. default olan budur
+     */
+
+    /*
+    //contains text() olayı tum web elementleri icinde, icerisinde text olarak 'şu'
+     text i iceren locateleri bul diyor. bunu baska bir text icerigi ile
+     aranan metni değistirerek te kullanabiliriz
      */
 }

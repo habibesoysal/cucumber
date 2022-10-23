@@ -16,3 +16,5 @@ Feature: Form Doldurma
     Examples:
       | kullanici adi | sifre | metin alani |
       | kullanici adi | sifre | metin alani |
+      | kullanici adi | sifre | metin alani |
+      | kullanici adi | sifre | metin alani |

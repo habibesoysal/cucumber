@@ -68,8 +68,8 @@ public class PracticeFormStepDef {
     @When("username {string} password {string} ve textarea {string} kisimlarini doldurur")
     public void usernamePasswordVeTextareaKisimlariniDoldurur(String username, String password, String textarea) {
         username= Faker.instance().name().username();
-        password= Faker.instance().name().username();
-        textarea= Faker.instance().name().username();
+        password= Faker.instance().internet().password();
+        textarea= Faker.instance().lordOfTheRings().character();
 
         practiceFormPage.username.sendKeys(username);
         practiceFormPage.password.sendKeys(password);
