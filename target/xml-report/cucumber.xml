@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="64.114">
-    <testcase classname="Medunna Login Negative Test" name="Negative Login Test" time="63.808">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="17.926">
+    <testcase classname="US1003 Kullanici parametre kullanarak arama yapabilmeli" name="TC06 kullanici parametre ile amazonda arama yapabilmeli" time="17.629">
         <system-out>
-            <![CDATA[Given kullanici "https://medunna.com/" sayfasina gider......................passed
-When login olmak icin signin e tiklar.......................................passed
-And username icin "username" kullanici adini gonderir.......................passed
-And password icin "password" parolasini gonderir............................passed
-And signine tiklar..........................................................passed
-Then Authentication information not correct uyarisini dogrular..............passed
+            <![CDATA[Given kullanici amazon anasayfasinda........................................passed
+And kullanici "Nutella "icin arama yapar....................................passed
+And sonuclarin "Nutella" icerdigini test eder...............................passed
+Then sayfayi kapatir........................................................passed
 ]]>
         </system-out>
     </testcase>
